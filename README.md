@@ -1,21 +1,33 @@
-# 📊 Análise de Dados de Imigração no Canadá
+# 🌍 Análise Visual de Imigração para o Canadá
 
-Este projeto consiste em uma análise exploratória de dados sobre imigração para o Canadá, utilizando a biblioteca **pandas** no ambiente Jupyter Notebook.
+Este projeto apresenta uma análise visual e exploratória dos dados de imigração para o Canadá ao longo dos anos, utilizando bibliotecas poderosas de visualização em Python como **matplotlib**, **seaborn** e **plotly**.
 
-## 🧾 Descrição
+## 📌 Objetivo
 
-A análise tem como objetivo explorar e visualizar dados históricos sobre imigração para o Canadá a partir de diferentes países. Os dados são carregados a partir de um arquivo CSV e processados em Python.
+Explorar e comunicar visualmente as tendências de imigração para o Canadá a partir de diversos países, por meio de gráficos interativos e estáticos.
 
-## 📁 Estrutura do Projeto
+## 📂 Estrutura
 
-- `Aula_1.ipynb`: Notebook principal contendo o código de análise.
-- `imigrantes_canada.csv`: Conjunto de dados com informações históricas de imigração.
+- `Aula_1.ipynb`: Notebook com toda a análise, gráficos e explicações.
+- `imigrantes_canada.csv`: Arquivo com os dados históricos de imigração por país e por ano.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠 Tecnologias e Bibliotecas
 
-- Python 3
-- Jupyter Notebook
-- pandas
+- Python 3.x
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [plotly](https://plotly.com/python/)
+
+## 📊 Análises Realizadas
+
+- Leitura e limpeza dos dados de imigração
+- Análise temporal das imigrações por país
+- Visualizações com:
+  - Gráficos de linha e área (matplotlib/seaborn)
+  - Gráficos interativos (plotly)
+  - Destaque para os principais países com maior fluxo migratório
+- Interpretação visual das tendências ao longo das décadas
 
 ## ▶️ Como Executar
 
